@@ -76,7 +76,7 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler,WKN
         else
         {
             decisionHandler(.cancel)
-            UIApplication.shared.openURL(url!)
+            UIApplication.shared.open(url!)
         }
 	}
     
